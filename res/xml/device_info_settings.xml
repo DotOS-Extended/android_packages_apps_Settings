@@ -53,7 +53,7 @@
 
 	<PreferenceScreen
 	    android:title="Maintained By"
-	    android:summary="@DNI9 and @Destroyer32">
+	    android:summary="DNI9 and Destroyer32">
 	<intent
 	    android:action="android.intent.action.VIEW"
 	    android:data="https://t.me/@Destroyer32" />
