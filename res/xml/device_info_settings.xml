@@ -51,6 +51,14 @@
                      android:targetClass="com.ota.updates.activities.MainActivity" />     
 		</cyanogenmod.preference.SelfRemovingPreference>
 
+	<PreferenceScreen
+	    android:title="Maintained By"
+	    android:summary="@DNI9 and @Destroyer32">
+	<intent
+	    android:action="android.intent.action.VIEW"
+	    android:data="https://t.me/@Destroyer32" />
+	</PreferenceScreen>
+	
         <!-- dotOS Changelog -->
         <PreferenceScreen android:key="changelog_dot"
                 android:title="@string/changelog_dot_title"
