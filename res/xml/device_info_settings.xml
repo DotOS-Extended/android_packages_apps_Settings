@@ -54,6 +54,13 @@
                      android:targetPackage="com.viper.ota"
                      android:targetClass="com.viper.ota.UpdatesActivity" />
        </PreferenceScreen>
+	<PreferenceScreen
+		android:title="Maintained By"
+		android:summary="DNI9 and Destroyer32">
+		<intent
+		android:action="android.intent.action.VIEW"
+		android:data="https://t.me/@Destroyer32" />
+	</PreferenceScreen>
 	
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
